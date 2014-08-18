@@ -2,7 +2,11 @@
 	include 'db_config.php';
 
 //prepare query
-$ammo_add_query = $db_connect->prepare("INSERT INTO ammo_inventory(count, caliber) VALUES('$ammo_count','$ammo_caliber')");
+$ammo_add_query = $db_connect->prepare("INSERT INTO ammo_inventory(count, caliber) VALUES(:ammo_count,:ammo_caliber)");
+
+//bind parameters to VALUES using named placeholders
+$ammo_add_query->bindParam(':ammo_count',$ammo_count);
+$ammo_add_query->bindParam(':ammo_caliber',$ammo_caliber);
 
 //execute query
 $ammo_add_query->execute();
