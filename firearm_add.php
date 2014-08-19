@@ -20,7 +20,7 @@ $insert_query->execute();
 	<title></title>
 </head>
 <body>
-	<a href="firearm.php">Add More Guns!</a><br>
+	<a href="index.php">Add More Guns!</a><br>
 	<a href="ammo.php">Add Ammo!</a>
 </body>
 </html>

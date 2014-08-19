@@ -25,6 +25,7 @@ hr {
 body{
   font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
+
 .hidden {
     display: none !important;
     visibility: hidden;
@@ -68,6 +69,14 @@ body{
   display: none;
 }
 
+table{
+  display: inline-block;
+}
+
 input[name="ammo_added"]{
   width: 50px;
+}
+
+th, td{
+  padding: 5px;
 }

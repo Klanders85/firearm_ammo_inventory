@@ -43,11 +43,36 @@
                     </select><br>
                     <input type="submit" value="submit" id="submit"/>
                 </form>
+                <h2 class="center">Your Weapons Cache</h2>
+                <table border="1">
+                    <tr>
+                        <th align="center" colspan="3">Guns</th>
+                    </tr>
+                    <tr>
+                        <td><strong>Model</strong></td>
+                        <td><strong>Caliber</strong></td>
+                        <td><strong>Type</strong></td>
+                    </tr>
+                    <tr>
+                        
+                    </tr>
+                     <tr>
+                       
+                    </tr>
+                </table>
+
+                <table border="1">
+                    <tr>
+                        <th align="center" colspan="2">Ammo</th>
+                    </tr>
+                    <tr>
+                        <td>Caliber</td>
+                        <td>Type</td>
+                    </tr>
+                </table>
             </div>
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script type="text/javascript">
-          
-        </script>
+        <script type="text/javascript"></script>
     </body>
 </html>
