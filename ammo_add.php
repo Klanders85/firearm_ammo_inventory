@@ -20,6 +20,7 @@ $ammo_add_query->execute();
 </head>
 <body>
 	<a href="firearm.php">Add More Guns!</a><br>
-	<a href="ammo.php">Add Ammo!</a>
+	<a href="ammo.php">Add Ammo!</a><br>
+	<a href="weapons-cache.php">Get your weapons cache!</a>
 </body>
 </html>
