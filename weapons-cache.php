@@ -30,6 +30,9 @@
 	//execute query
 	$inventory_query->execute();
 
-	?>
+	//now you have the data, next: display that data
+?>
+
+	//
 </body>
 </html>
