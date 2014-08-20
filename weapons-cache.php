@@ -1,5 +1,5 @@
 <?php
-	include'db-config.php';
+	include'db_config.php';
 ?>
 
 <!doctype html>
@@ -29,10 +29,11 @@
 ");
 	//execute query
 	$inventory_query->execute();
-
+	$result_set = $inventory_query->fetchAll(PDO::FETCH_ASSOC);
+	print_r($result_set);
 	//now you have the data, next: display that data
+
 ?>
 
-	//
 </body>
 </html>

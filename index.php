@@ -26,7 +26,7 @@
                             <option value="Pistol">Pistol</option>
                             <option value="Rifle">Rifle</option>
                             <option value="Shotgun">Shotgun</option>
-                            <option value="Other">Other</option>
+                            <option value="Assault Rifle">Assault Rifle</option>
                         </select> 
                     </p>
                     <p class="inline-block">Enter the model:</p> <input type="text" name="firearm_model" /><br>
@@ -42,6 +42,12 @@
                         <option value=".10ga">.10ga</option>
                         <option value=".12ga">.12ga</option>
                         <option value=".16ga">.16ga</option>
+                        <option value=".410ga">.410ga</option>
+                        <option value=".454 Casull">.454 Casull</option>
+                        <option value=".223">.223</option>
+                        <option value="7.62x39mm">7.62x39mm</option>
+                        <option value="5.56mm">5.56mm</option>
+                        <option value="7.62x54r">7.62x54r</option>
                     </select><br>
                     <input type="submit" value="submit" id="submit"/>
                 </form>
