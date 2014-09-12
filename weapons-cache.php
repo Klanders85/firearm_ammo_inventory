@@ -29,9 +29,16 @@
 ");
 	//execute query
 	$inventory_query->execute();
-	$result_set = $inventory_query->fetchAll(PDO::FETCH_ASSOC);
-	print_r($result_set);
+	$result_set = $inventory_query->fetchAll(PDO::FETCH_OBJ);
+
+	$test = '<table>';
+
 	//now you have the data, next: display that data
+	foreach ($result_set as $key) {
+		$test .= "<tr><td>{$key->style}</td><td>{$key->model}</td><td>{$key->caliber}</td></tr>";
+	}
+
+	echo $test;
 
 ?>
 
