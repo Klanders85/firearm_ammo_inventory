@@ -12,13 +12,14 @@
         <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript" src="/js/vendor/jquery-1.10.2.min.js"></script>
     </head>
     <body>
        <header>
         <h1 class="center">Gun &amp; Ammo Inventory</h1>
        </header>
         <div class="container">
-            <div id="form1">
+            <!-- <div id="form1">
                 <form action="firearm_add.php" method="post" class="center">
                     <p>Add a firearm: 
                         <select name="firearm_style">
@@ -48,10 +49,13 @@
                         <option value="7.62x39mm">7.62x39mm</option>
                         <option value="5.56mm">5.56mm</option>
                         <option value="7.62x54r">7.62x54r</option>
+                        <option value=".25-06">.25-06</option>
                     </select><br>
                     <input type="submit" value="submit" id="submit"/>
                 </form>
-            </div>
+            </div> -->
+
+            
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script type="text/javascript"></script>
