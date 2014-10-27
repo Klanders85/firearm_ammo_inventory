@@ -48,6 +48,12 @@
                         <option value="7.62x39mm">7.62x39mm</option>
                         <option value="5.56mm">5.56mm</option>
                         <option value="7.62x54r">7.62x54r</option>
+                        <option value="25-06">25-06</option>
+                        <option value="30-06">30-06</option>
+                        <option value="30-30">30-30</option>
+                        <option value=".270">.270</option>
+                        <option value=".243">.243</option>
+                        <option value="7mm">7mm</option>
                     </select><br>
                     <input type="submit" value="submit" id="submit"/>
                 </form>
