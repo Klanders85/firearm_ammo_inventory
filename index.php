@@ -12,6 +12,7 @@
         <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript" src="/js/vendor/jquery-1.10.2.min.js"></script>
     </head>
     <body>
        <header>
@@ -54,6 +55,8 @@
                         <option value=".270">.270</option>
                         <option value=".243">.243</option>
                         <option value="7mm">7mm</option>
+                        <option value=".25-06">.25-06</option>
+
                     </select><br>
                     <input type="submit" value="submit" id="submit"/>
                 </form>

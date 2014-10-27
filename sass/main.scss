@@ -1,3 +1,10 @@
+
+/* ========================================================================
+   Color Vars
+   ========================================================================== */
+
+   $gun-metal : #292e37;
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -12,7 +19,7 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
-    font-family: helvetica;
+    
 }
 hr {
     display: block;
@@ -23,7 +30,7 @@ hr {
     padding: 0;
 }
 body{
-  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-family: 'copperplate';
 }
 
 .hidden {
@@ -77,6 +84,13 @@ input[name="ammo_added"]{
   width: 50px;
 }
 
+th{
+  font-size: 28px;
+  font-family: 'copperplate';
+}
+
 th, td{
-  padding: 5px;
+  padding: 5px 10px;
+  text-align: left;
+  border-bottom: 4px solid $gun-metal;
 }

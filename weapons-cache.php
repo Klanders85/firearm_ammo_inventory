@@ -19,6 +19,9 @@
 		<h1 class="center">Get your weapons cache!</h1>
 	</header>
 	<div class="container">
+		<form action="weapons-cache.php" method="get" class="center">
+			<input type="submit" value="Run Report" id="submit">
+		</form>
 	</div>
 <?php	
 	//prepare a query
@@ -33,7 +36,7 @@
 	//now you have the data, next: display that data
 	foreach ($result_set as $key) {
 		$test .= "<tr><td>{$key->style}</td><td>{$key->model}</td><td>{$key->caliber}</td><td>{$key->count}</td></tr>";
-	}
+	};
 
 	echo $test;
 

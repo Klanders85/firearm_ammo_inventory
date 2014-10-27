@@ -4,6 +4,7 @@
 	<title></title>
 	<link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="/js/vendor/jquery-1.10.2.min.js"></script>
 </head>
 <body>
 	<div class="container">
