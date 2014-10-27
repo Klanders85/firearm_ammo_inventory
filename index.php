@@ -19,7 +19,7 @@
         <h1 class="center">Gun &amp; Ammo Inventory</h1>
        </header>
         <div class="container">
-            <!-- <div id="form1">
+            <div id="form1">
                 <form action="firearm_add.php" method="post" class="center">
                     <p>Add a firearm: 
                         <select name="firearm_style">
@@ -53,7 +53,7 @@
                     </select><br>
                     <input type="submit" value="submit" id="submit"/>
                 </form>
-            </div> -->
+            </div>
 
             
         </div>
