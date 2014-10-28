@@ -16,11 +16,13 @@ $ammo_add_query->execute();
 <!doctype html>
 <html>
 <head>
-	<title></title>
+	<head>
+       
+    </head>
 </head>
 <body>
 	<a href="index.php">Add More Guns!</a><br>
-	<a href="ammo.php">Add Ammo!</a><br>
+	<a href="ammo.php">Add ammo for this gun!</a><br>
 	<a href="weapons-cache.php">Get your weapons cache!</a>
 </body>
 </html>

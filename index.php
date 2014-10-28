@@ -1,5 +1,5 @@
 <?php
-    include 'db_config.php';
+    include 'weapons-cache-create.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -60,6 +60,9 @@
                     </select><br>
                     <input type="submit" value="submit" id="submit"/>
                 </form>
+            </div>
+            <div class="link-wrapper">
+                <a href="weapons-cache.php" class="weapons-cache-link">Get Your Ammo Cache!</a>
             </div>
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

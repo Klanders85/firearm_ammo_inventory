@@ -4,6 +4,7 @@
    ========================================================================== */
 
    $gun-metal : #292e37;
+   $bloodRed : red;
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -14,31 +15,24 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+  color: #222;
 }
 html {
-    font-size: 1em;
-    line-height: 1.4;
-    
-}
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  font-size: 1em;
+  line-height: 1.4; 
 }
 body{
   font-family: 'copperplate';
+  a{
+    text-decoration: none;
+  }
 }
-
 .hidden {
-    display: none !important;
-    visibility: hidden;
+  display: none !important;
+  visibility: hidden;
 }
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 .center{
   text-align: center;
@@ -62,35 +56,25 @@ body{
   margin: 10px auto;
   position: relative;
 }
-
-#form1{
-  position: absolute;
-  left: 100px;
-  top: 0;
-}
-
-#form2{
-  position: absolute;
-  left: 100px;
-  top: 0;
-  display: none;
-}
-
 table{
   display: inline-block;
+  td{
+    padding: 5px 10px;
+    text-align: left;
+    border-bottom: 4px solid $gun-metal;
+  }
 }
-
 input[name="ammo_added"]{
   width: 50px;
 }
-
-th{
-  font-size: 28px;
-  font-family: 'copperplate';
+.link-wrapper{
+  margin-top: 30px;
+  text-align: center;
+  .weapons-cache-link{
+    font-size: 22px;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
 }
 
-th, td{
-  padding: 5px 10px;
-  text-align: left;
-  border-bottom: 4px solid $gun-metal;
-}

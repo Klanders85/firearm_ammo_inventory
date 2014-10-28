@@ -15,10 +15,9 @@
     </head>
 <body>
 	<header>
-		<h1 class="center">Get your weapons cache!</h1>
+		<h1 class="center">Weapons Cache!</h1>
 	</header>
 	<div class="container">
-		
 		<!-- prints out the value of $test in weapons-cache-create.php -->
 		<?php
 			echo $test;
