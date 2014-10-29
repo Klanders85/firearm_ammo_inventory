@@ -18,9 +18,20 @@
 		<h1 class="center">Weapons Cache!</h1>
 	</header>
 	<div class="container">
-		<!-- prints out the value of $test in weapons-cache-create.php -->
 		<?php
-			echo $test;
+		$test = '<table>';
+		
+		//now you have the data, next: display that data
+		foreach ($result_set as $key) {
+		$test .= "<tr>
+					<td>Type<br />{$key->style}</td>
+					<td>Model<br />{$key->model}</td>
+					<td>Caliber<br />{$key->caliber}</td>
+					<td>Ammo Count<br />{$key->count}</td>
+				</tr>";
+			};
+
+		echo $test;	
 		?>
 	</div>
 </body>

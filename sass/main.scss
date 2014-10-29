@@ -1,11 +1,18 @@
-
+@font-face {
+  font-family: 'typeWriter';
+  src: url('/fonts/OldNewspaperTypes.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/OldNewspaperTypes.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/OldNewspaperTypes.woff') format('woff'), /* Modern Browsers */
+         url('/fonts/OldNewspaperTypes.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/OldNewspaperTypes.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 /* ========================================================================
    Color Vars
    ========================================================================== */
 
-   $gun-metal : #292e37;
+   $gun-metal: #292e37;
    $bloodRed : red;
-
+   $mainFont : 'typeWriter';
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -22,7 +29,7 @@ html {
   line-height: 1.4; 
 }
 body{
-  font-family: 'copperplate';
+  font-family: $mainFont;
   a{
     text-decoration: none;
   }
