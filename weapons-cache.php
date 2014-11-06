@@ -17,7 +17,7 @@
 	<header>
 		<h1 class="center">Weapons Cache!</h1>
 	</header>
-	<div class="container">
+	<div class="container center">
 		<?php
 		$test = '<table>';
 		
