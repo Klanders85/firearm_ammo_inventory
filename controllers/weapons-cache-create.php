@@ -6,5 +6,7 @@
 ");
 	//execute query
 	$inventory_query->execute();
+
+	//retrieve query
 	$result_set = $inventory_query->fetchAll(PDO::FETCH_OBJ);
 ?>	
