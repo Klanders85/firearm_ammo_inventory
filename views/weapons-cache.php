@@ -19,20 +19,23 @@
 	</header>
 	<div class="container center">
 		<?php
-		$test = '<table>';
+		$weapon_data = '<table>';
 		
 		//now you have the data, next: display that data
 		foreach ($result_set as $key) {
-		$test .= "<tr>
+		$weapon_data .= "<tr>
 					<td>Type<br />{$key->style}</td>
 					<td>Model<br />{$key->model}</td>
 					<td>Caliber<br />{$key->caliber}</td>
 					<td>Ammo Count<br />{$key->count}</td>
-				</tr>";
+				</tr></table>";
 			};
 
-		echo $test;	
+		echo $weapon_data;	
 		?>
+		<br />
+		<br />
+		<a href="/index.php">Back to Home</a>
 	</div>
 </body>
 </html>
