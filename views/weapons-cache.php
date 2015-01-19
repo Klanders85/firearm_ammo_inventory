@@ -1,5 +1,5 @@
 <?php
-	include '/controllers/weapons-cache-create.php';
+	include '../controllers/weapons-cache-create.php';
 ?>
 <!doctype html>
 <html>
