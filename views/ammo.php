@@ -7,14 +7,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- If adding Bootstrap, un-comment below and remove normalize, add the bootstrap file to CSS dir -->
         <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/main.css">
         <script type="text/javascript" src="/js/vendor/jquery-1.10.2.min.js"></script>
 </head>
 <body>
 	<div class="container">
             <div id="form1">
-                <form action="ammo_add.php" method="post" class="center">
+                <form action="/controllers/ammo_add.php" method="post" class="center">
                     <p class="inline-block">Select caliber:</p>
                     <select name="ammo_caliber">
                         <option value=""></option>

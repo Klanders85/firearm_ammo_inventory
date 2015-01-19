@@ -20,7 +20,7 @@
        </header>
         <div class="container">
             <div id="form1">
-                <form action="firearm_add.php" method="post" class="center">
+                <form action="controllers/firearm_add.php" method="post" class="center">
                     <p>Add a firearm: 
                         <select name="firearm_style">
                             <option value=""></option>
@@ -62,7 +62,7 @@
                 </form>
             </div>
             <div class="link-wrapper">
-                <a href="weapons-cache.php" class="weapons-cache-link">Get Your Ammo Cache!</a>
+                <a href="views/weapons-cache.php" class="weapons-cache-link">Get Your Ammo Cache!</a>
             </div>
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

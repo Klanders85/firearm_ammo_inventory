@@ -1,5 +1,5 @@
 <?php
-	include 'controllers/weapons-cache-create.php';
+	include '/controllers/weapons-cache-create.php';
 ?>
 <!doctype html>
 <html>
@@ -10,8 +10,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- If adding Bootstrap, un-comment below and remove normalize, add the bootstrap file to CSS dir -->
         <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/main.css">
     </head>
 <body>
 	<header>

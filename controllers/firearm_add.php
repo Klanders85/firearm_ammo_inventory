@@ -23,16 +23,16 @@ $insert_query->execute();
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- If adding Bootstrap, un-comment below and remove normalize, add the bootstrap file to CSS dir -->
         <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/main.css">
         <script type="text/javascript" src="/js/vendor/jquery-1.10.2.min.js"></script>
 </head>
 <body>
 	<div class="container center">
 		<h1>Firearm Added!</h1>
-		<a href="index.php">Add More Guns!</a><br>
-		<a href="ammo.php">Add ammo for this gun!</a><br>
-		<a href="weapons-cache.php">Get your weapons cache!</a>
+		<a href="/index.php">Add More Guns!</a><br>
+		<a href="/views/ammo.php">Add ammo for this gun!</a><br>
+		<a href="/views/weapons-cache.php">Get your weapons cache!</a>
 	</div>
 </body>
 </html>
